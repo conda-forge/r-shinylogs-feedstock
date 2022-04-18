@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinylogs_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinylogs/shinylogs_{{ version }}.tar.gz
-  sha256: 75473d9bc6ea931029b274ca3e49ea4b6ceb5ad75b21d4a3c93faf0958e43a03
+  sha256: 527e362c0f00571d2463187c90486563922e813c988037d989764cc13ff829f0
 
 build:
   merge_build_host: true  # [win]
