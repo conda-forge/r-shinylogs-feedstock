@@ -1,11 +1,11 @@
-About r-shinylogs
-=================
+About r-shinylogs-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinylogs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dreamRs/shinylogs
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinylogs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Track and record the use of applications and the user's interactions with 'Shiny' inputs. Allow to save inputs clicked, output generated and eventually errors.
 
